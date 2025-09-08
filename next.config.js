@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: '',
-  assetPrefix: './',
+  basePath: '/website',
+  assetPrefix: '/website/',
   images: {
     unoptimized: true,
     loader: 'custom',
