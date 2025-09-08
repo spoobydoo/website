@@ -2,10 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/website/' : '',
+  basePath: '',
+  assetPrefix: './',
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
   trailingSlash: true,
 };
