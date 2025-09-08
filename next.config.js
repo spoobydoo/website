@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/George-Port' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/George-Port/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/website' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/website/' : '',
   images: {
     unoptimized: true,
   },
