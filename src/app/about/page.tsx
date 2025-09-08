@@ -1,12 +1,10 @@
+
+
 'use client';
 
 import React from 'react';
 import { aboutMe } from '../../data/aboutMe';
-
-export const metadata = {
-  title: 'About Me | George Lock - Social Media Expert',
-  description: 'Learn about George Lock\'s background, education, and expertise in social media and digital marketing.',
-};
+import { metadata } from './metadata';
 
 export default function AboutPage() {
   return (

@@ -1,3 +1,5 @@
+
+
 'use client';
 
 import React from 'react';
@@ -5,11 +7,7 @@ import { experience } from '../../data/experience';
 import { accounts } from '../../data/accounts';
 import { skills } from '../../data/skills';
 import { Instagram, Download, ArrowRight, Award, Briefcase } from 'lucide-react';
-
-export const metadata = {
-  title: 'Work Experience | George Lock - Social Media Expert',
-  description: 'Explore George Lock\'s work experience, social media portfolio, and professional achievements in digital marketing.',
-};
+import { metadata } from './metadata';
 
 export default function ExperiencePage() {
   return (

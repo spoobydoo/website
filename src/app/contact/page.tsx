@@ -1,12 +1,12 @@
+
+'use client';
+
+
 'use client';
 
 import React from 'react';
 import { Mail, Phone, Clock, Send, ExternalLink } from 'lucide-react';
-
-export const metadata = {
-  title: 'Contact | George Lock - Social Media Expert',
-  description: 'Get in touch with George Lock for social media management, digital marketing expertise, and consulting services.',
-};
+import { metadata } from './metadata';
 
 export default function ContactPage() {
   return (
