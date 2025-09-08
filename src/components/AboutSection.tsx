@@ -8,8 +8,8 @@ const AboutSection = () => {
     <section id="about" className="py-20 px-6 bg-slate-900/50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-2xl text-gray-300">
+          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <p className="text-xl text-gray-300">
             Social media expert with a passion for digital marketing and audience growth
           </p>
         </div>
@@ -18,7 +18,7 @@ const AboutSection = () => {
           {/* Quote Section */}
           <div className="mb-12 text-center">
             <div className="text-4xl text-purple-400 mb-4">"</div>
-            <p className="text-2xl md:text-3xl text-white italic max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white italic max-w-3xl mx-auto">
               {aboutMe.quote}
             </p>
             <div className="text-4xl text-purple-400 mt-4">"</div>
@@ -69,13 +69,13 @@ const AboutSection = () => {
             
             {/* Text Content */}
             <div className="md:w-2/3">
-              <p className="text-gray-300 text-xl leading-relaxed mb-6">
+              <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 I'm a passionate social media professional with a deep understanding of digital platforms and audience engagement strategies. My journey in social media marketing began during my early college years and has evolved into a successful career managing multiple high-profile accounts.
               </p>
-              <p className="text-gray-300 text-xl leading-relaxed mb-6">
+              <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 With experience in building, growing, and monetizing social media accounts across various platforms, I specialize in content creation, community engagement, and leveraging analytics to drive strategic decisions. My approach combines creative storytelling with data-driven insights to maximize reach and engagement.
               </p>
-              <p className="text-gray-300 text-xl leading-relaxed mb-8">
+              <p className="text-gray-300 text-lg leading-relaxed mb-8">
                 As a recent Temple University graduate with a degree in Advertising, I bring both academic knowledge and practical experience to every project. I'm committed to staying ahead of industry trends and platform algorithm changes to deliver exceptional results for personal brands and business clients alike.
               </p>
 
